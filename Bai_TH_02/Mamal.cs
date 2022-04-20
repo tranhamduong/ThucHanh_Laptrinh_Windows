@@ -8,7 +8,7 @@ namespace Bai_TH_02
 {
     abstract class Mamal
     {
-        public string? characteristic { get; set; }
+        public string? Characteristic { get; set; }
 
     }
 
@@ -19,12 +19,12 @@ namespace Bai_TH_02
 
     public interface IThinking : IAbility
     {
-        public void thinking_behavior();
+        public void Thinking_behavior();
     }
 
     public interface IIntelligent : IAbility
     {
-        public void intelligent_behavior();
+        public void Intelligent_behavior();
     }
 
 
